@@ -114,3 +114,12 @@
   .benefit-card { padding: 25px 15px; }
 }
 
+#countdown {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1rem;
+}
