@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/registo",
+      "destination": "https://bantubet.co.ao/affiliates/?btag=2389446_1382352",
+      "permanent": true
+    },
+    {
+      "source": "/login",
+      "destination": "https://bantubet.co.ao/affiliates/?btag=2389446_1382343",
+      "permanent": true
+    },
+    {
+      "source": "/bónus",
+      "destination": "https://bantubet.co.ao/affiliates/?btag=2389446_1382348",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://bantubetangola.com/$1",
+      "permanent": true
+    }
+  ]
+}
