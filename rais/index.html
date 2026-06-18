@@ -22,6 +22,49 @@
 
         body { font-family: 'Inter', sans-serif; }
 
+        .top-bar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 10px 16px;
+            box-sizing: border-box;
+            background: #fff;
+            border-bottom: 1px solid #ececec;
+        }
+
+        .top-bar__content {
+            width: 100%;
+            max-width: 1100px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 0.9rem;
+            color: #4b5563;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .top-bar__label {
+            font-weight: 600;
+            color: #111827;
+        }
+
+        .top-bar__value {
+            white-space: nowrap;
+        }
+
+        @media (max-width: 640px) {
+            .top-bar {
+                padding: 8px 12px;
+            }
+
+            .top-bar__content {
+                font-size: 0.82rem;
+            }
+        }
+
     </style>
 
 </head>
@@ -130,17 +173,39 @@
 
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center relative z-10">
     <div class="md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
-      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-        Transforme suas apostas em <span class="text-[#F5C300]">prémios milionários!</span>
-      </h1>
-      <p class="text-xl text-gray-400 mb-8">
-        Registe-se grátis e receba até <strong class="text-white">50.000 Kz</strong> de bónus de boas-vindas.
+      <p class="text-sm text-gray-400 mb-4">
+        Última atualização:
+        <strong id="data-atualizado" class="text-white font-semibold"></strong>
       </p>
-      
-      <a href="https://sshortly1.com/registo.bantubet.co.ao" 
-         class="inline-block bg-[#F5C300] text-black font-bold text-lg px-8 py-4 rounded-xl shadow-[0_0_20px_rgba(245,195,0,0.4)] hover:shadow-[0_0_30px_rgba(245,195,0,0.6)] hover:-translate-y-1 transition-all duration-300">
-        CRIAR CONTA AGORA E GANHAR BÔNUS
-      </a>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        Calendário Completo da Copa do Mundo FIFA 2026
+      </h1>
+      <p class="text-xl text-gray-400 mb-6 max-w-2xl">
+        Calendário completo da Copa do Mundo FIFA 2026 com todas as seleções participantes.
+      </p>
+      <div class="text-left text-gray-300 space-y-4 mb-8">
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm leading-6">
+          <li>
+            <strong class="text-white">Américas:</strong>
+            Canadá, Estados Unidos, México, Brasil, Argentina, Uruguai, Colômbia, Paraguai, Equador, Curaçau, Haiti, Panamá
+          </li>
+          <li>
+            <strong class="text-white">Europa:</strong>
+            Alemanha, França, Espanha, Inglaterra, Portugal, Bélgica, Holanda, Croácia, Escócia, Áustria, Suécia, Suíça, Turquia, Noruega, Bósnia e Herzegovina, República Tcheca
+          </li>
+          <li>
+            <strong class="text-white">África:</strong>
+            Marrocos, Senegal, Egito, Gana, Argélia, África do Sul, Tunísia, Costa do Marfim, República Democrática do Congo, Cabo Verde
+          </li>
+          <li>
+            <strong class="text-white">Ásia e Oceania:</strong>
+            Austrália, Japão, Coreia do Sul, Irã, Iraque, Arábia Saudita, Catar, Jordânia, Uzbequistão, Nova Zelândia
+          </li>
+        </ul>
+      </div>
+      <p class="text-lg text-gray-400 max-w-2xl">
+        Confira todos os jogos, fases de grupos, oitavas de final, quartas, semifinais e a grande final em Nova York/Nova Jersey. Resultados, tabela, classificação e partidas atualizadas da Copa do Mundo 2026.
+      </p>
     </div>
 
 <div class="md:w-1/2 flex justify-center">
